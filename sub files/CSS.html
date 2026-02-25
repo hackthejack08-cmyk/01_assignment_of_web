@@ -1,73 +1,105 @@
 <!DOCTYPE html>
 
+<html>
 <head>
     <title>CSS Tutorial - Soul Society</title>
 </head>
 
-<body bgcolor="#0f3460" style="color: #eee; font-family: Arial, sans-serif; padding: 20px;">
+<body bgcolor="#0f3460" text="#eeeeee">
 
-    <a href="/main.html" style="text-decoration: none;">
-        <h1 align="center" style="color: #e94560; text-shadow: 2px 2px 4px #000; border: 2px solid #4ecca3; padding: 10px; border-radius: 10px;">
-            ⬅️ BACK TO HOME
-        </h1>
+    <a href="/main.html">
+        <h1 align="center">BACK TO HOME</h1>
     </a>
     
-    <h1 align="center" style="color: #4d96ff; text-shadow: 2px 2px 4px #000; font-size: 2.5em;">
-        🎨 CSS Tutorial
-    </h1>
+    <hr>
     
-    <hr style="border-color: #4d96ff;">
+    <h1 align="center">CSS Tutorial</h1>
     
-    <h2 style="color: #ffd93d;">What is CSS?</h2>
+    <hr>
     
-    <p style="font-size: 1.1em; line-height: 1.6; background-color: #16213e; padding: 15px; border-radius: 5px;">
-        <strong>CSS</strong> stands for <em>Cascading Style Sheets</em>. It describes how HTML elements are to be 
-        displayed on screen, paper, or in other media. CSS saves a lot of work because it can control the layout 
-        of multiple web pages all at once!
+    <h2>What is CSS?</h2>
+    
+    <p>
+        <b>CSS</b> stands for <i>Cascading Style Sheets</i>. It describes how HTML elements are to be 
+        displayed on screen, paper, or in other media. CSS saves a lot of work because it can control 
+        the layout of multiple web pages all at once!
     </p>
     
-    <h2 style="color: #6bcb77;">✨ Why Use CSS?</h2>
+    <h2>Why Use CSS?</h2>
     
-    <ul style="font-size: 1.1em; line-height: 1.8; background-color: #16213e; padding: 15px; border-radius: 5px;">
+    <ul>
         <li>Control the layout of multiple pages at once</li>
         <li>Add beautiful colors, fonts, and spacing</li>
         <li>Create responsive designs for different screen sizes</li>
         <li>Add animations and transitions</li>
         <li>Separate style from content</li>
+        <li>Make websites visually appealing</li>
     </ul>
     
-    <h2 style="color: #ff6b6b;">🎯 CSS vs HTML</h2>
+    <h2>HTML vs CSS</h2>
     
-    <div style="background-color: #16213e; padding: 15px; border-radius: 5px; border-left: 4px solid #4d96ff;">
-        <h3 style="color: #4ecca3;">HTML (HyperText Markup Language):</h3>
-        <p>Provides the structure and skeleton of a web page - the content!</p>
+    <h3>HTML (HyperText Markup Language):</h3>
+    <p>
+        Provides the structure and skeleton of a web page - the content!
+    </p>
         
-        <h3 style="color: #4d96ff;">CSS (Cascading Style Sheets):</h3>
-        <p>Provides the visual presentation - colors, fonts, layout, and design!</p>
-    </div>
+    <h3>CSS (Cascading Style Sheets):</h3>
+    <p>
+        Provides the visual presentation - colors, fonts, layout, and design!
+    </p>
     
-    <h2 style="color: #a29bfe;">📋 CSS Syntax</h2>
+    <hr>
     
-    <table border="2" style="border-color: #4d96ff; width: 100%; background-color: #16213e;" cellpadding="10">
-        <tr style="background-color: #4d96ff; color: #fff;">
+    <h2>CSS Syntax</h2>
+    
+    <p>
+        CSS uses selectors to target HTML elements and properties to define their style.
+    </p>
+    
+    <!-- <h3>Basic Syntax:</h3>
+    <pre>
+selector {
+    property: value; -->
+
+    <!-- </pre>
+    
+    <h3>Example:</h3>
+    <pre>
+h1 {
+    color: blue;
+    font-size: 24px;
+}
+    </pre>
+    
+    <hr>
+    
+    <h2>CSS Properties Reference</h2>
+    
+    <table border="2" width="100%">
+        <tr>
             <th>Property</th>
             <th>Example</th>
             <th>Description</th>
         </tr>
         <tr>
             <td>color</td>
-            <td style="color: #ff6b6b;">color: red;</td>
+            <td>color: red;</td>
             <td>Sets the text color</td>
         </tr>
         <tr>
             <td>background-color</td>
-            <td style="background-color: #6bcb77;">background-color: blue;</td>
+            <td>background-color: blue;</td>
             <td>Sets the background color</td>
         </tr>
         <tr>
             <td>font-size</td>
-            <td style="font-size: 20px;">font-size: 16px;</td>
+            <td>font-size: 16px;</td>
             <td>Sets the font size</td>
+        </tr>
+        <tr>
+            <td>font-family</td>
+            <td>font-family: Arial;</td>
+            <td>Sets the font type</td>
         </tr>
         <tr>
             <td>margin</td>
@@ -81,15 +113,76 @@
         </tr>
         <tr>
             <td>border</td>
-            <td style="border: 2px solid #ffd93d;">border: 1px solid black;</td>
+            <td>border: 1px solid black;</td>
             <td>Sets the border style</td>
+        </tr>
+        <tr>
+            <td>width</td>
+            <td>width: 100px;</td>
+            <td>Sets the element width</td>
+        </tr>
+        <tr>
+            <td>height</td>
+            <td>height: 200px;</td>
+            <td>Sets the element height</td>
+        </tr>
+        <tr>
+            <td>text-align</td>
+            <td>text-align: center;</td>
+            <td>Sets text alignment</td>
         </tr>
     </table>
     
-    <div align="center" style="margin-top: 30px; padding: 20px; background-color: #16213e; border-radius: 10px; border: 2px solid #4d96ff;">
-        <h3 style="color: #4d96ff;">💡 Pro Tip</h3>
-        <p style="color: #ffd93d;">Use external CSS files to style multiple pages at once!</p>
-    </div>
+    <hr>
+    
+    <h2>How to Add CSS</h2>
+    
+    <h3>1. Inline CSS:</h3>
+    <pre>
+<p style="color: blue;">This is blue text.</p>
+    </pre>
+    
+    <h3>2. Internal CSS (in head):</h3>
+    <pre>
+<style>
+    p { color: blue; }
+</style>
+    </pre>
+    
+    <h3>3. External CSS (separate file):</h3>
+    <pre>
+<link rel="stylesheet" href="style.css">
+    </pre>
+    
+    <hr>
+    
+    <h2>CSS Selectors</h2>
+    
+    <ul>
+        <li><b>Element Selector:</b> Targets HTML tags like h1, p, div</li>
+        <li><b>Class Selector:</b> Targets elements with a specific class (use .classname)</li>
+        <li><b>ID Selector:</b> Targets a unique element (use #idname)</li>
+        <li><b>Group Selector:</b> Targets multiple elements at once</li>
+    </ul>
+    
+    <hr>
+    
+    <h2>Best Practices</h2>
+    
+    <ul>
+        <li>Use external CSS files to style multiple pages</li>
+        <li>Keep CSS organized and commented</li>
+        <li>Use semantic class and ID names</li>
+        <li>Test designs on different screen sizes</li>
+    </ul>
+    
+    <hr>
+    
+    <h2>Next Steps</h2>
+    <p>
+        Once you understand CSS, you can explore advanced topics like Flexbox, Grid, and CSS animations 
+        to create more sophisticated layouts!
+    </p> -->
 
 </body>
-</html>
+</html> 

@@ -1,104 +1,178 @@
 <!DOCTYPE html>
 
+<html>
 <head>
     <title>HTML Tutorial - Soul Society</title>
 </head>
 
-<body bgcolor="#0f3460" style="color: #eee; font-family: Arial, sans-serif; padding: 20px;">
+<body bgcolor="#0f3460" text="#eeeeee">
 
-    <a href="/main.html" style="text-decoration: none;">
-        <h1 align="center" style="color: #e94560; text-shadow: 2px 2px 4px #000; border: 2px solid #4ecca3; padding: 10px; border-radius: 10px;">
-            ⬅️ BACK TO HOME
-        </h1>
+    <a href="/main.html">
+        <h1 align="center">BACK TO HOME</h1>
     </a>
     
-    <h1 align="center" style="color: #4ecca3; text-shadow: 2px 2px 4px #000; font-size: 2.5em;">
-        📄 HTML Tutorial
-    </h1>
+    <hr>
     
-    <hr style="border-color: #e94560;">
+    <h1 align="center">HTML Tutorial</h1>
     
-    <h2 style="color: #ffd93d;">What is HTML?</h2>
+    <hr>
     
-    <p style="font-size: 1.1em; line-height: 1.6; background-color: #16213e; padding: 15px; border-radius: 5px;">
-        <strong>HTML</strong> stands for <em>HyperText Markup Language</em>. It is the standard markup language 
-        for creating web pages. HTML describes the structure of a web page and consists of a series of elements 
-        that tell the browser how to display content.
+    <h2>What is HTML?</h2>
+    
+    <p>
+        <b>HTML</b> stands for <i>HyperText Markup Language</i>. It is the standard markup language 
+        for creating web pages. HTML describes the structure of a web page and consists of a series of 
+        elements that tell the browser how to display content.
     </p>
     
-    <h2 style="color: #6bcb77;">🌐 Why Use HTML?</h2>
+    <h2>Why Use HTML?</h2>
     
-    <ul style="font-size: 1.1em; line-height: 1.8; background-color: #16213e; padding: 15px; border-radius: 5px;">
+    <ul>
         <li>HTML is the foundation of all web pages</li>
         <li>It defines the structure of web content</li>
         <li>It's easy to learn and use</li>
         <li>Every website uses HTML</li>
+        <li>It works with CSS and JavaScript</li>
     </ul>
     
-    <h2 style="color: #4d96ff;">🎨 CSS vs JavaScript</h2>
+    <h2>HTML vs CSS vs JavaScript</h2>
     
-    <div style="background-color: #16213e; padding: 15px; border-radius: 5px; border-left: 4px solid #e94560;">
-        <h3 style="color: #ffd93d;">CSS (Cascading Style Sheets):</h3>
-        <p>Used to style and layout web pages - colors, fonts, spacing, animations, and more!</p>
+    <h3>HTML (HyperText Markup Language):</h3>
+    <p>
+        Provides the structure and skeleton of a web page. It defines the content - headings, paragraphs, 
+        images, links, and other elements.
+    </p>
         
-        <h3 style="color: #f9ed69;">JavaScript:</h3>
-        <p>Used to add interactivity and logic to web pages - what happens when you click a button!</p>
-    </div>
+    <h3>CSS (Cascading Style Sheets):</h3>
+    <p>
+        Used to style and layout web pages - colors, fonts, spacing, animations, and more!
+    </p>
+        
+    <h3>JavaScript:</h3>
+    <p>
+        Used to add interactivity and logic to web pages - what happens when you click a button!
+    </p>
     
-    <h2 style="color: #ff6b6b;">📋 HTML Syntax Reference</h2>
+    <hr>
     
-    <table border="2" style="border-color: #4ecca3; width: 100%; background-color: #16213e;" cellpadding="10">
-        <tr style="background-color: #e94560; color: #fff;">
+    <h2>HTML Syntax Reference</h2>
+    
+    <table border="2" width="100%">
+        <tr>
             <th>Syntax</th>
             <th>Name</th>
             <th>Description</th>
         </tr>
         <tr>
             <td><!DOCTYPE html></td>
-            <td style="color: #6bcb77;">Doctype</td>
+            <td>Doctype</td>
             <td>Specifies that this is an HTML5 document</td>
         </tr>
         <tr>
             <td><html></td>
-            <td style="color: #6bcb77;">HTML Tag</td>
+            <td>HTML Tag</td>
             <td>Root element of an HTML page</td>
         </tr>
         <tr>
             <td><head></td>
-            <td style="color: #6bcb77;">Head Tag</td>
+            <td>Head Tag</td>
             <td>Contains metadata about the document</td>
         </tr>
         <tr>
             <td><body></td>
-            <td style="color: #6bcb77;">Body Tag</td>
+            <td>Body Tag</td>
             <td>Contains the visible page content</td>
         </tr>
         <tr>
             <td><h1> to <h6></td>
-            <td style="color: #6bcb77;">Heading Tags</td>
+            <td>Heading Tags</td>
             <td>Defines headings (h1 is largest, h6 is smallest)</td>
         </tr>
         <tr>
             <td><p></td>
-            <td style="color: #6bcb77;">Paragraph Tag</td>
+            <td>Paragraph Tag</td>
             <td>Defines a paragraph of text</td>
+        </tr>
+        <tr>
+            <td><a href="url"></td>
+            <td>Anchor Tag</td>
+            <td>Creates a hyperlink to another page</td>
+        </tr>
+        <tr>
+            <td><img src="url"></td>
+            <td>Image Tag</td>
+            <td>Embeds an image in the page</td>
+        </tr>
+        <tr>
+            <td><ul> and <li></td>
+            <td>List Tags</td>
+            <td>Creates unordered (bulleted) lists</td>
+        </tr>
+        <tr>
+            <td><ol> and <li></td>
+            <td>Ordered List Tags</td>
+            <td>Creates numbered lists</td>
+        </tr>
+        <tr>
+            <td><table>, <tr>, <td></td>
+            <td>Table Tags</td>
+            <td>Creates tables with rows and cells</td>
+        </tr>
+        <tr>
+            <td><div></td>
+            <td>Division Tag</div>
+            <td>Container for HTML elements</td>
         </tr>
     </table>
     
-    <h2 style="color: #a29bfe;">🎥 Learn More</h2>
+    <hr>
     
-    <div align="center" style="margin-top: 20px;">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/BzYMFd-lQL4?si=EQNY8VhCxctVIFXK" 
-                title="YouTube video player" frameborder="0" 
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
-        </iframe>
-    </div>
+    <h2>Basic HTML Page Structure</h2>
     
-    <div align="center" style="margin-top: 30px; padding: 20px; background-color: #16213e; border-radius: 10px; border: 2px solid #4ecca3;">
-        <h3 style="color: #e94560;">💡 Practice Tip</h3>
-        <p style="color: #ffd93d;">Start with basic tags and gradually explore more complex elements!</p>
-    </div>
+    <pre>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Page Title</title>
+    </head>
+    <body>
+        <h1>My First Heading</h1>
+        <p>My first paragraph.</p>
+    </body>
+</html>
+    </pre>
+    
+    <hr>
+    
+    <h2>Learn More</h2>
+    
+    <h3>Video Tutorial</h3>
+    
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/BzYMFd-lQL4" 
+            title="YouTube video player" 
+            frameborder="2"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            allowfullscreen>
+    </iframe>
+    
+    <hr>
+    
+    <h3>Practice Tips</h3>
+    <ul>
+        <li>Start with basic tags and gradually explore more complex elements</li>
+        <li>Create simple pages and add more content as you learn</li>
+        <li>Use web development tools to preview your code</li>
+        <li>Look at the source code of other websites for inspiration</li>
+        <li>Practice regularly to improve your skills</li>
+    </ul>
+    
+    <hr>
+    
+    <h3>Next Steps</h3>
+    <p>
+        Once you're comfortable with HTML, move on to CSS to learn how to style your pages, 
+        then JavaScript to add interactivity!
+    </p>
 
 </body>
 </html>
