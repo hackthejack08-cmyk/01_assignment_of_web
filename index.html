@@ -1,39 +1,19 @@
 <!DOCTYPE html>
-<html>         
-<title>Watashiwa Code socity</title>
-
-
-
-
-<!-- Main frameset with rows: 20%, 60%, 20% -->
-<frameset rows="10%,65%,5%" frameborder="0" framespacing="0">
-
-
-
-
-
-    <!-- Top section (20%) -->
-    <frame src="/top.html" frameborder="0"></frame>
-
-    
-    <!-- Middle section (60%) - split into columns: 20%, 80% -->
-    <frameset cols="15%,85%" frameborder="0" framespacing="0">
-
-        <frame src="/left.html" frameborder="0" ></frame>
-
-    <frameset>   <frame src="/right_main.html" frameborder="0" name="content"></frame> </frameset>
-
-    </frameset>
-           
-    <!-- Bottom section (20%) -->
-    <frame src="/bottom.html" frameborder="0"></frame>
-
-  
-</frameset>
-
-<!-- maps.google.in/d -->
-<!-- 000free.com
-showme.com -->
-
-
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Watashiwa Code Society</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body class="index-page">
+    <div class="app-shell">
+        <iframe class="panel" src="/top.html" title="Top"></iframe>
+        <div class="main">
+            <iframe class="panel" src="/left.html" title="Menu"></iframe>
+            <iframe class="panel" src="/right_main.html" name="content" title="Content"></iframe>
+        </div>
+        <iframe class="panel" src="/bottom.html" title="Footer"></iframe>
+    </div>
+</body>
 </html>
