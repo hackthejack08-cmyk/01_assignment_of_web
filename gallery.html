@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Image Gallery</title>
+
+<style>
+
+body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    text-align:center;
+
+    /* Gojo Blue → Gojo Red Dark Theme */
+    background: linear-gradient(135deg,#0f2027,#203a43,#8b0000);
+}
+
+h2{
+    margin-top:20px;
+    font-size:32px;
+}
+
+p{
+    opacity:0.8;
+}
+
+/* iframe display */
+iframe{
+    border:3px solid white;
+    border-radius:12px;
+    height:360px;
+    width:70%;
+    background:black;
+}
+
+/* thumbnail container */
+.gallery{
+    margin-top:25px;
+}
+
+/* thumbnails */
+.gallery img{
+    height:72px;
+    width:72px;
+    margin:8px;
+    border-radius:8px;
+    border:2px solid white;
+    transition:0.3s;
+}
+
+/* hover effect */
+.gallery img:hover{
+    transform:scale(1.1);
+    border:2px solid cyan;
+}
+
+</style>
+</head>
+
+<body>
+
+<h2>Welcome to Image Gallery</h2>
+
+<p>This page is an image gallery,that includes blender pictures,and random dumps.</p>
+
+<!-- Frame where images appear -->
+<iframe name="top"></iframe>
+
+<br><br>
+
+<div class="gallery">
+
+<a href="/sub files/gallery/img1.png.png" target="top">
+<img src="/sub files/gallery/img1.png.png">
+</a>
+
+<a href="/sub files/gallery/Screenshot 2026-03-02 052230.png" target="top">
+<img src="/sub files/gallery/Screenshot 2026-03-02 052230.png">
+</a>
+
+<a href="/sub files/gallery/Screenshot 2026-03-02 052318.png" target="top">
+<img src="/sub files/gallery/Screenshot 2026-03-02 052318.png">
+</a>
+
+<a href="/sub files/gallery/Screenshot 2026-03-02 052440.png" target="top">
+<img src="/sub files/gallery/Screenshot 2026-03-02 052440.png">
+</a>
+
+<a href="/sub files/gallery/Screenshot 2026-03-02 052515.png" target="top">
+<img src="/sub files/gallery/Screenshot 2026-03-02 052531.png">
+</a>
+<a href="/sub files/gallery/Screenshot 2026-03-04 153856.png " target="top">
+<img src="/sub files/gallery/Screenshot 2026-03-04 153856.png">
+</a>
+<a href="/sub files/gallery/Screenshot 2026-03-02 053319.png" target="top">
+<img src="/sub files/gallery/Screenshot 2026-03-02 053319.png">
+</a>
+<a href="/sub files/gallery/Screenshot 2026-03-02 053220.png" target="top">
+<img src="/sub files/gallery/Screenshot 2026-03-02 053220.png">
+</a>
+
+</div>
+
+</body>
+</html>
